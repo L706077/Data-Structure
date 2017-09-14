@@ -128,6 +128,9 @@ cout << "convert to num:" << num <<endl;
 
 ### inline
 
+### typedef / #define
+
+### ifdef else/ifndef else
 
 
 
