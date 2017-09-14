@@ -51,6 +51,8 @@
 
 ### string
 
+---
+
 #### int to string
 ```C++
 include <iostream>
@@ -91,7 +93,7 @@ cout << "convert to num:" << num <<endl;
 **最常見的使用方法是拿StringStream來做字串的分割（空白切割）或int與String類別的之間的轉換。<br/>**
 - [streamstring](https://dotblogs.com.tw/v6610688/2013/11/08/cplusplus_stringstream_int_and_string_convert_and_clear)
 
----
+<br/>
 
 ### atoi & itoa
 
