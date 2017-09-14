@@ -3,29 +3,53 @@
 - [c++](http://www.cplusplus.com/reference/)
 
 ## STL(Standard Template Library) 標準樣板函式庫
-- Container容器 : vector, deque, list, queue, stack, map, unordered_map
-- Algorithm演算法: find, search, sort, merge, count, reverse, swap, max, min
-- Iterator迭代器 : ::iterator
-
-
-
-
-### string
+- **Container容器** : vector, deque, list, queue, stack, map, unordered_map
+- **Algorithm演算法**: find, search, sort, merge, count, reverse, swap, max, min
+- **Iterator迭代器** : ::iterator
+- **輸入輸出流/字串字元處理** : stringstream, string
 
 ### vector
 
-### reverse
+### deque
+
+### list
+
+### queue
+
+### stack
 
 ### map
 
 ### unordered_map
 
+---
+
+### find
+
+### search
+
+### sort
+
+### merge
+
+### count
+
+### reverse
+
+### swap
+
+### max/min
+
+---
+
 ### iterator
 
-
+---
 
 
 ### StringStream
+
+### string
 
 #### int to string
 ```C++
@@ -70,6 +94,10 @@ cout << "convert to num:" << num <<endl;
 ---
 
 ### atoi & itoa
+
+---
+
+# only use c++ to create: 
 
 ### linkedlist queue stack
 
