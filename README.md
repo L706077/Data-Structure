@@ -9,23 +9,23 @@
 - **輸入輸出流/字串字元處理** : stringstream, string
 <br/>
 
-- (1).
+(1).
 容器可以分為三種：<br/>
-**序列容器：vector deque list**<br/>
-**Vector**：可從後端執行快速的插入和刪除，直接訪問任何元素<br/>
-**Deque**：從前面或後面執行快速的插入和刪除，直接訪問任何元素<br/>
-**List**：雙鍊錶，能在任何地方執行快速的插入和刪除<br/>
+- **序列容器：vector deque list**<br/>
+  **Vector**：可從後端執行快速的插入和刪除，直接訪問任何元素<br/>
+  **Deque**：從前面或後面執行快速的插入和刪除，直接訪問任何元素<br/>
+  **List**：雙鍊錶，能在任何地方執行快速的插入和刪除<br/>
 
-**關聯容器： set multiset map multimap**<br/>
-**Set**：執行快速搜索，元素不允許重複<br/>
-**Multiset**：執行快速搜索，元素允許重複<br/>
-**Map**：一對一映射，元素不允許重複，快速的基於鍵的搜索<br/>
-**Multimap**：一對多映射，元素允許重複，快速的基於鍵的搜索<br/>
+- **關聯容器： set multiset map multimap**<br/>
+  **Set**：執行快速搜索，元素不允許重複<br/>
+  **Multiset**：執行快速搜索，元素允許重複<br/>
+  **Map**：一對一映射，元素不允許重複，快速的基於鍵的搜索<br/>
+  **Multimap**：一對多映射，元素允許重複，快速的基於鍵的搜索<br/>
 
-**容器適配器： stack queue priority_queue**<br/>
-**Stack**：後進先出<br/>
-**Queue**：先進先出<br/>
-**priority_queue**：優先級最高的元素總是最先出隊<br/>
+- **容器適配器： stack queue priority_queue**<br/>
+  **Stack**：後進先出<br/>
+  **Queue**：先進先出<br/>
+  **priority_queue**：優先級最高的元素總是最先出隊<br/>
 
 ### vector
 
