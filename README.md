@@ -28,6 +28,41 @@
   **priority_queue**：優先級最高的元素總是最先出隊<br/>
 
 ### vector
+|   **用法**    |     **說明** |
+| --------- | --------- |
+| c.assign(beg,end)  |  將[beg; end)區間中的數據賦值給c。 | 
+| c.assign(n,elem)  |  將n個elem的拷貝賦值給c。 |
+| c.at(idx)  |  傳回索引idx所指的數據，如果idx越界，拋出out_of_range。|
+| c.back()  |  傳回最後一個數據，不檢查這個數據是否存在。|
+| c.begin()  |  傳回迭代器重的可一個數據。|
+| c.end()  |  指向迭代器中的最後一個數據地址。|
+| c.clear()  |  移除容器中所有數據。|
+| deque<Elem> c  |  創建一個空的deque。|
+| deque<Elem> c1(c2)  |  複製一個deque。|
+| deque<Elem> c(n)  |  創建一個deque，含有n個數據，數據均已缺省構造產生。|
+| deque<Elem> c(n, elem)  |  創建一個含有n個elem拷貝的deque。|
+| deque<Elem> c(beg,end)  |  創建一個以[beg;end)區間的deque。|
+| c.~deque<Elem>()  |  銷毀所有數據，釋放內存。|
+| c.empty()  |  判斷容器是否為空。|
+| c.erase(pos)  |  刪除pos位置的數據，傳回下一個數據的位置。|
+| c.erase(beg,end)  |  刪除[beg,end)區間的數據，傳回下一個數據的位置。|
+| c.front()  |  傳回地一個數據。|
+| get_allocator  |  使用構造函數返回一個拷貝。|
+| c.insert(pos,elem)  |  在pos位置插入一個elem拷貝，傳回新數據位置。|
+| c.insert(pos,n,elem)   |  在pos位置插入>n個elem數據。無返回值。|
+| c.insert(pos,beg,end)  |  在pos位置插入在[beg,end)區間的數據。無返回值。|
+| c.max_size()  |  返回容器中最大數據的數量。|
+| c.pop_back()  |  刪除最後一個數據。|
+| c.push_back(elem)  |  在尾部加入一個數據。|
+| c.rbegin()  |  傳回一個逆向隊列的第一個數據。|
+| c.rend()  |  傳回一個逆向隊列的最後一個數據的下一個位置。|
+| c.resize(num)  |  重新指定隊列的長度。|
+| c.size()  |  返回容器中實際數據的個數。|
+| swap(c1, c2)  |  將c1和c2元素互換。|
+| reserve() | 反向vector元素排序 |
+
+相較於deque少了push_front/ pop_front，但多了reverse()。
+
 
 ### deque
 基本上與vector應用相同，但vector用了連續的記憶體位置而deque則不然，若太多東西時vector得另尋連續記憶體區塊將整個資料搬移,而deque就沒這個問題。<br/>
@@ -46,9 +81,9 @@ deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後�
 | c.clear()  |  移除容器中所有數據。|
 | deque<Elem> c  |  創建一個空的deque。|
 | deque<Elem> c1(c2)  |  複製一個deque。|
-| Deque<Elem> c(n)  |  創建一個deque，含有n個數據，數據均已缺省構造產生。|
-| Deque<Elem> c(n, elem)  |  創建一個含有n個elem拷貝的deque。|
-| Deque<Elem> c(beg,end)  |  創建一個以[beg;end)區間的deque。|
+| deque<Elem> c(n)  |  創建一個deque，含有n個數據，數據均已缺省構造產生。|
+| deque<Elem> c(n, elem)  |  創建一個含有n個elem拷貝的deque。|
+| deque<Elem> c(beg,end)  |  創建一個以[beg;end)區間的deque。|
 | c.~deque<Elem>()  |  銷毀所有數據，釋放內存。|
 | c.empty()  |  判斷容器是否為空。|
 | c.erase(pos)  |  刪除pos位置的數據，傳回下一個數據的位置。|
