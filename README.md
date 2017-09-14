@@ -28,7 +28,7 @@
   **priority_queue**：優先級最高的元素總是最先出隊<br/>
 
 ### vector
-|  方法  |
+|  **方法**  |
 | ------ |
 |vector::vector|
 |vector::~vector|
@@ -113,6 +113,51 @@ deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後�
 
 
 ### list
+|  **方法**  |
+| ------ |
+|list::list|
+|list::~list|
+|**member functions:**|
+|list::assign|
+|list::back|
+|list::begin|
+|list::cbegin|
+|list::cend|
+|list::clear|
+|list::crbegin|
+|list::crend|
+|list::emplace|
+|list::emplace_back|
+|list::emplace_front|
+|list::empty|
+|list::end|
+|list::erase|
+|list::front|
+|list::get_allocator|
+|list::insert|
+|list::max_size|
+|list::merge|
+|list::operator=|
+|list::pop_back|
+|list::pop_front|
+|list::push_back|
+|list::push_front|
+|list::rbegin|
+|list::remove|
+|list::remove_if|
+|list::rend|
+|list::resize|
+|list::reverse|
+|list::size|
+|list::sort|
+|list::splice|
+|list::swap|
+|list::unique|
+|**non-member overloads:**|
+|relational operators (list)|
+|swap (list)|
+<br/>
+
 
 ### queue
 
