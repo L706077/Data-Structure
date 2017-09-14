@@ -107,6 +107,17 @@ cout << "convert to num:" << num <<endl;
 
 
 
+---
+
+# others
+
+### class
+
+### override
+
+### template
+
+### virtual
 
 
 
