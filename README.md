@@ -2,7 +2,14 @@
 
 - [c++](http://www.cplusplus.com/reference/)
 
-STL(Standard Template Library)
+## STL(Standard Template Library) 標準樣板函式庫
+- Container容器 : vector, deque, list, queue, stack, map, unordered_map
+- Algorithm演算法: find, search, sort, merge, count, reverse, swap, max, min
+- Iterator迭代器 : ::iterator
+
+
+
+
 ### string
 
 ### vector
