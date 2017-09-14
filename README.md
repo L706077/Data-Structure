@@ -33,11 +33,12 @@
 基本上與vector應用相同，但vector用了連續的記憶體位置而deque則不然，若太多東西時vector得另尋連續記憶體區塊將整個資料搬移,而deque就沒這個問題。<br/>
 對iterator的存取率很高的時候，因為deque的記憶體是分開的，所以他的iterator的運算會多幾個檢查會比較慢，所以此時用vector會比較好。<br/>
 deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後面的東西皆要copy到前面。而從後(pop_back())面刪除vector跟deque差不多一樣快。 <br/>
-
+| --------- | --------- | --------- |---------|---------|
 |            |    GTX1080   |   GTX1080Ti  | Tesla P40   | Tesla P4 |
 | c.assign(beg,end)  | 將[beg; end)區間中的數據賦值給c。 |     GP102    |   GP102    |  GP104   |
 | Process    |     16nm     |     16nm     |    16nm    |   16nm   |
 
+| --------- | --------- |
 | c.assign(beg,end)  |  將[beg; end)區間中的數據賦值給c。 | 
 | c.assign(n,elem)  |  將n個elem的拷貝賦值給c。 |
 
