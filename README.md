@@ -38,6 +38,8 @@ deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後�
 | ---------  | ------------ |
 | c.assign(beg,end)  | 將[beg; end)區間中的數據賦值給c。 |
 | c.assign(n,elem)  | 將n個elem的拷貝賦值給c。|
+
+
 | c.at(idx)  |  傳回索引idx所指的數據，如果idx越界，拋出out_of_range。|
 | c.back()  |  傳回最後一個數據，不檢查這個數據是否存在。|
 | c.begin()  |  傳回迭代器重的可一個數據。|
