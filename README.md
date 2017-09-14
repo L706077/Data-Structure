@@ -126,7 +126,7 @@ cout << "convert to num:" << num <<endl;
 
 ### virtual
 
-
+### inline
 
 
 
