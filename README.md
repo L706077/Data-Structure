@@ -247,6 +247,9 @@ cout << "convert to num:" << num <<endl;
 # only use c++ to create: 
 
 ### linkedlist queue stack
+- [linkedlist](http://www.geeksforgeeks.org/reverse-a-linked-list/)
+
+
 
 ### sort search
 
