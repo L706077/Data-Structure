@@ -160,6 +160,25 @@ deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後�
 
 
 ### queue
+|  **方法**  |
+| ------ |
+|queue::queue|
+|**member functions:**|
+|queue::back|
+|queue::emplace|
+|queue::empty|
+|queue::front|
+|queue::pop|
+|queue::push|
+|queue::size|
+|queue::swap|
+|**non-member overloads:**|
+|relational operators (queue)|
+|swap (queue)|
+|**non-member specializations:**|
+|uses_allocator<queue>|
+
+
 
 ### stack
 
