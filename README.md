@@ -377,11 +377,11 @@ struct node{
 
 int main(int argc, char** argv) {
 	
-	    struct node * head, * ptr, * read;
-	    int count=0;
-	    head=(struct node*)malloc(sizeof(node));
-	    ptr=head;
-	    read=head;
+	struct node * head, * ptr, * read;
+	int count=0;
+	head=(struct node*)malloc(sizeof(node));
+	ptr=head;
+	read=head;
 	
 	//keyin forward
 	while(count<5)
