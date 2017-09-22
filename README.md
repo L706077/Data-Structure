@@ -371,8 +371,8 @@ cout << "convert to num:" << num <<endl;
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 struct node{
-	    int val;
-	    struct node * next;	
+	int val;
+	struct node * next;	
 };
 
 int main(int argc, char** argv) {
@@ -404,8 +404,8 @@ int main(int argc, char** argv) {
 		    printf( "output = %d \n" , output );
 		    read=read->next;
 	}
-	     free(ptr);
-	     return 0;
+	free(ptr);
+	return 0;
 }
 ```
 
