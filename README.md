@@ -181,10 +181,106 @@ deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後�
 
 
 ### stack
+|  **方法**  |
+| ------ |
+|stack::stack|
+|**member functions:**|
+|stack::emplace|
+|stack::empty|
+|stack::pop|
+|stack::push|
+|stack::size|
+|stack::swap|
+|stack::top|
+|**non-member overloads:**|
+|relational operators (stack)|
+|swap (stack)|
+|**non-member specializations:**|
+|uses_allocator<stack>|
+
 
 ### map
+|  **方法**  |
+| ------ |
+|map::map|
+|map::~map|
+|**member functions:**|
+|map::at|
+|map::begin|
+|map::cbegin|
+|map::cend|
+|map::clear|
+|map::count|
+|map::crbegin|
+|map::crend|
+|map::emplace|
+|map::emplace_hint|
+|map::empty|
+|map::end|
+|map::equal_range|
+|map::erase|
+|map::find|
+|map::get_allocator|
+|map::insert|
+|map::key_comp|
+|map::lower_bound|
+|map::max_size|
+|map::operator=|
+|map::operator[]|
+|map::rbegin|
+|map::rend|
+|map::size|
+|map::swap|
+|map::upper_bound|
+|map::value_comp|
+|**non-member overloads:**|
+|relational operators (map)|
+|swap (map)|
+
+
 
 ### unordered_map
+|  **方法**  |
+| ------ |
+|unordered_map::unordered_map|
+|unordered_map::~unordered_map|
+|**member functions:**|
+|unordered_map::at|
+|unordered_map::begin|
+|unordered_map::bucket|
+|unordered_map::bucket_count|
+|unordered_map::bucket_size|
+|unordered_map::cbegin|
+|unordered_map::cend|
+|unordered_map::clear|
+|unordered_map::count|
+|unordered_map::emplace|
+|unordered_map::emplace_hint|
+|unordered_map::empty|
+|unordered_map::end|
+|unordered_map::equal_range|
+|unordered_map::erase|
+|unordered_map::find|
+|unordered_map::get_allocator|
+|unordered_map::hash_function|
+|unordered_map::insert|
+|unordered_map::key_eq|
+|unordered_map::load_factor|
+|unordered_map::max_bucket_count|
+|unordered_map::max_load_factor|
+|unordered_map::max_size|
+|unordered_map::operator=|
+|unordered_map::operator[]|
+|unordered_map::rehash|
+|unordered_map::reserve|
+|unordered_map::size|
+|unordered_map::swap|
+|**non-member overloads:**|
+|operators (unordered_map)|
+|swap (unordered_map)|
+
+
+
 
 ---
 
