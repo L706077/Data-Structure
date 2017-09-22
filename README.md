@@ -68,7 +68,7 @@
 |relational operators (vector)|
 |swap (vector)|
 
-相較於deque少了push_front/ pop_front，但多了reverse()。
+相較於deque少了push_front/ pop_front，但多了reserve()。
 
 
 ### deque
