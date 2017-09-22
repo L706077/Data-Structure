@@ -362,8 +362,52 @@ cout << "convert to num:" << num <<endl;
 # only use c++ to create: 
 
 ### linkedlist queue stack
-- [linkedlist](http://www.geeksforgeeks.org/reverse-a-linked-list/)
+- [linkedlist](http://www.geeksforgeeks.org/reverse-a-linked-list/) <br/>
 
+```C++
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+struct node{
+	    int val;
+	    struct node * next;	
+};
+
+int main(int argc, char** argv) {
+	
+	    struct node * head, * ptr, * read;
+	    int count=0;
+	    head=(struct node*)malloc(sizeof(node));
+	    ptr=head;
+	    read=head;
+	
+	//keyin forward
+	while(count<5)
+	{
+		    int input;
+		    std::cin>>input; 
+		    ptr->val=input;
+		    ptr->next=(struct node*)malloc(sizeof(node));
+		    ptr=ptr->next;
+		    ptr->next=NULL;
+		    count++;	
+	}
+	
+	//read forward
+	while(read->next)
+	{
+		    printf("start read , ");
+		    int output;
+		    output=read->val;
+		    printf( "output = %d \n" , output );
+		    read=read->next;
+	}
+	     free(ptr);
+	     return 0;
+}
+```
 
 
 ### sort search
