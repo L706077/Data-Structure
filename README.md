@@ -307,13 +307,13 @@ deque從前後刪除都很快，而vector若從前面刪(pop_front())，則後�
 ---
 
 
-### StringStream
-
-### string
+### stringstream
 
 ---
 
-#### int to string
+### string
+
+- **int to string**
 ```C++
 include <iostream>
 
@@ -331,7 +331,7 @@ cout << "string to int" <<endl;
 ```
 <br/>
 
-#### string to int
+- **string to int**
 ```C++
 include <iostream>
 stringstream ss;
