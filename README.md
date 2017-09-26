@@ -505,7 +505,7 @@ void createLinkedlist(struct node* head, int num){
 		else
 		{
 			ptr->next = (struct node*)malloc(sizeof(node));	
-        	ptr=ptr->next;
+        		ptr=ptr->next;
 			ptr->next=NULL;                                                                                                                           
 		}
 	}
