@@ -691,6 +691,8 @@ int main(int argc, char** argv) {
 ### template
 
 ### virtual
+虛擬函數存在的目的就是讓衍生類別可以自行設計修改原有之函數行為.</br>
+當我們談到虛擬函數 (virtual function 或 virtual method) 時, 總是會和 "繼承" 與 "多型" 牽扯在一起. 虛擬函數就是指一個函數的行為可以在其所屬類別之衍生類別中被另一個和該函數具有相同簽章(signature) 之同名函數所重新設計和替換掉</br>
 
 ### inline
 
